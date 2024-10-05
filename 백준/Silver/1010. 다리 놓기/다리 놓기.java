@@ -27,4 +27,12 @@ public class Main {
         System.out.println(result);
 
     }
+ public static void mCn2(int m, int n) {
+        int result = 1;
+
+        for (int i = 0; i<=n; i++) {
+            result = result * (m - i);
+            result = result / (i + 1);
+        }
+    }
 }
